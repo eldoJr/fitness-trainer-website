@@ -6,7 +6,7 @@
 This **Fitness Trainer Website** is the final project for the **Global Certification (HTML & CSS)** course. It is designed to showcase a personal trainer's services, including training programs, testimonials, and contact details. The website is fully responsive and styled using HTML & CSS.
 
 ## 🚀 Live Demo
-Check out the live demo: **[Fitness Trainer Website](https://github.com/eldoJr/fitness-trainer-website.vercel.app)**
+Check out the live demo: **[Fitness Trainer Website](https://fitness-trainer-website-indol.vercel.app/)**
 
 ## 🛠️ Technologies Used
 - **HTML5** - For structuring the web pages.
