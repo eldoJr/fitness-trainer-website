@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Transform your fitness journey with personalized training programs."
+    />
+    <title>Fitness Trainer | Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <style>
+      @keyframes bg-slide {
+        0% {
+          background-image: url('/images/bg.jpg');
+        }
+        25% {
+          background-image: url('/images/image1.jpg');
+        }
+        50% {
+          background-image: url('/images/image2.jpg');
+        }
+        75% {
+          background-image: url('/images/image3.jpg');
+        }
+        100% {
+          background-image: url('/images/bg.jpg');
+        }
+      }
+
+      .hero {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 6rem 2rem;
+        min-height: 630px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: var(--white);
+        animation: bg-slide 20s infinite linear;
+      }
+
+      .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 600px;
+      }
+
+      .hero-content h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .hero-content p {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+      }
+
+      .hero-content .cta-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background-color: #ff5733;
+        color: var(--white);
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .hero-content .cta-button:hover {
+        background-color: #e64a2e;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Fitness Trainer</div>
+        <ul class="nav-links">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/programs.html">Programs</a></li>
+          <li><a href="pages/testimonials.html">Testimonials</a></li>
+          <li class="contact">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Transform Your Fitness Journey</h1>
+        <p>
+          Achieve your fitness goals with personalized training programs tailored
+          to your needs. Whether you're looking to lose weight, build strength,
+          or improve flexibility, I’m here to guide you every step of the way.
+        </p>
+        <a href="./pages/programs.html" class="cta-button">Discover More</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Baki-Fitness Trainer. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

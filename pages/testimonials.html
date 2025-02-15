@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read what our clients have to say about their fitness journey with us."
+    />
+    <title>Fitness Trainer | Testimonials</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <style>
+      .testimonials {
+        padding: 6rem 2rem;
+        background-color: var(--lightest-navy);
+        color: var(--lightest-slate);
+        text-align: center;
+        overflow: hidden;
+        height: 630px;
+      }
+
+      .testimonials h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color: #ff5733;
+        animation: fadeInUp 1s ease-out;
+      }
+
+      .testimonials-grid {
+        display: flex;
+        animation: slide 20s linear infinite;
+      }
+
+      .testimonial-card {
+        flex: 0 0 auto;
+        width: 300px;
+        margin-right: 20px;
+        background-color: var(--light-navy);
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+      }
+
+      .testimonial-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .testimonial-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        object-fit: cover;
+      }
+
+      .testimonial-card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #ff5733;
+      }
+
+      .testimonial-card p {
+        font-size: 1rem;
+        color: var(--light-slate);
+        line-height: 1.6;
+      }
+
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .testimonials {
+          padding: 4rem 1rem;
+        }
+
+        .testimonial-card {
+          width: 250px;
+          padding: 1.5rem;
+        }
+
+        .testimonial-card img {
+          width: 80px;
+          height: 80px;
+        }
+
+        .testimonial-card h2 {
+          font-size: 1.25rem;
+        }
+
+        .testimonial-card p {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Fitness Trainer</div>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li class="contact">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="testimonials">
+      <h1>What Our Clients Say</h1>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <img src="/images/user.jpg" alt="Client 1" />
+          <h2>John Doe</h2>
+          <p>
+            "I’ve never felt better! The personalized training program helped me
+            lose 20 pounds and gain so much confidence. Highly recommend!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="/images/userf.jpg" alt="Client 2" />
+          <h2>Jane Smith</h2>
+          <p>
+            "The strength training program was exactly what I needed. I’ve never
+            been this strong before. Thank you!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="/images/user.jpg" alt="Client 3" />
+          <h2>Mike Johnson</h2>
+          <p>
+            "The yoga program improved my flexibility and reduced my stress
+            levels. I feel amazing!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="/images/userf.jpg" alt="Client 4" />
+          <h2>Sarah Davis</h2>
+          <p>
+            "The nutrition program helped me develop healthy eating habits. I
+            feel more energetic and focused!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="/images/user.jpg" alt="Client 1" />
+          <h2>John Doe</h2>
+          <p>
+            "I’ve never felt better! The personalized training program helped me
+            lose 20 pounds and gain so much confidence. Highly recommend!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="/images/userf.jpg" alt="Client 2" />
+          <h2>Jane Smith</h2>
+          <p>
+            "The strength training program was exactly what I needed. I’ve never
+            been this strong before. Thank you!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="/images/user.jpg" alt="Client 3" />
+          <h2>Mike Johnson</h2>
+          <p>
+            "The yoga program improved my flexibility and reduced my stress
+            levels. I feel amazing!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <img src="/images/userf.jpg" alt="Client 4" />
+          <h2>Sarah Davis</h2>
+          <p>
+            "The nutrition program helped me develop healthy eating habits. I
+            feel more energetic and focused!"
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 FBaki-Fitness. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

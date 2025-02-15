@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with us to start your fitness journey today.">
+  <title>Fitness Trainer | Contact</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <style>
+.contact {
+  padding: 6rem 2rem;
+  background-color: var(--lightest-navy);
+  color: var(--lightest-slate);
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--white);
+  animation: fadeInUp 1s ease-out;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.contact-form,
+.contact-info {
+  flex: 1;
+  background-color: var(--light-navy);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--light-slate);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 94%;
+  padding: 0.8rem;
+  border: 1px solid var(--slate);
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: var(--lightest-navy);
+  color: var(--lightest-slate);
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.contact-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--light-slate);
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--light-slate);
+}
+
+.contact-info .social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.contact-info .social-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.contact-info .social-links a:hover {
+  color: var(--white);
+}
+
+.map {
+  margin-top: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 5rem 1rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 9%;
+  }
+
+  .contact-form,
+  .contact-info {
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Fitness Trainer</div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h1>Contact Us</h1>
+    <div class="contact-container">
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>Have questions or want to get started? Reach out to us!</p>
+        <ul>
+          <li><strong>Email:</strong> info@fitnesstrainer.com</li>
+          <li><strong>Phone:</strong> +91 814 56-7890</li>
+          <li><strong>Address:</strong> 123 Fitness St, Parul University, Vadodara</li>
+        </ul>
+        <div class="social-links">
+          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank">Instagram</a>
+          <a href="#" target="_blank">Twitter</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.837036881756!2d73.4516723153166!3d22.2863476853298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcfb5f2d5f7b9%3A0x4a7a8f5f5f5f5f5f!2sParul%20University!5e0!3m2!1sen!2sin!4v1698765432100!5m2!1sen!2sin&zoom=15"
+        width="100%"
+        height="400"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Baki-Fitness. All rights reserved.</p>
+  </footer>
+</body>
+</html>

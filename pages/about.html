@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn more about our fitness trainer and their mission to help you achieve your goals."
+    />
+    <title>Fitness Trainer | About</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+
+    <style>
+      .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 6rem 2rem;
+        background-color: var(--primary);
+        color: var(--lightest-slate);
+        gap: 2rem;
+      }
+
+      .profile-image {
+        flex: 1;
+        max-width: 350px;
+        text-align: center;
+      }
+
+      .profile-image img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+
+      .about-content {
+        flex: 2;
+        max-width: 600px;
+        text-align: justify;
+        padding: 0 2rem;
+      }
+
+      .about-content h1,
+      .about-content h2 {
+        color: #ff5733;
+      }
+
+      .about-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .about-content h2 {
+        font-size: 1.8rem;
+        margin: 2rem 0 1rem;
+      }
+
+      .about-content p,
+      .about-content ul li {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: var(--light-slate);
+      }
+
+      .about-content ul {
+        list-style: disc;
+        margin-left: 2rem;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 2rem 0;
+      }
+
+      table th,
+      table td {
+        padding: 1rem;
+        text-align: left;
+        border: 1px solid #ff5733;
+      }
+
+      table th {
+        background-color: var(--light-navy);
+        color: var(--white);
+      }
+
+      table td:hover {
+        background-color: rgba(255, 87, 51, 0.65);
+      }
+
+      .cta-button {
+        display: block;
+        background-color: var(--accent);
+        color: var(--white);
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        text-align: center;
+        margin: 2rem auto;
+        width: fit-content;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: #e64a19;
+      }
+
+      @media (max-width: 868px) {
+        .about {
+          flex-direction: column;
+          text-align: center;
+          padding: 4rem 1rem;
+        }
+
+        .profile-image {
+          max-width: 250px;
+        }
+
+        .about-content {
+          padding: 0 1rem;
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Fitness Trainer</div>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li class="contact">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="about">
+      <div class="profile-image">
+        <img src="../images/profile.jpg" alt="Fitness Trainer Profile" />
+      </div>
+
+      <div class="about-content">
+        <h1>About Me</h1>
+        <p>
+          Hi, I'm <strong>Eldo A. Macuacua</strong>, a certified fitness trainer
+          with over <strong>10 years</strong> of experience helping clients
+          achieve their fitness goals. My mission is to empower you to transform
+          your life through personalized training programs and expert guidance.
+        </p>
+
+        <h2>My Mission</h2>
+        <p>
+          I believe that fitness is not just about physical strength but also
+          mental resilience. My goal is to create a supportive environment where
+          you can thrive and become the best version of yourself.
+        </p>
+
+        <h2>Experience & Qualifications</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Certification</td>
+              <td>Certified Personal Trainer (CPT)</td>
+            </tr>
+            <tr>
+              <td>Specialization</td>
+              <td>Weight Loss, Strength Training, Yoga, and Nutrition</td>
+            </tr>
+            <tr>
+              <td>Experience</td>
+              <td>
+                10 years of experience working with clients of all fitness
+                levels
+              </td>
+            </tr>
+            <tr>
+              <td>Accreditation</td>
+              <td>
+                Accredited by the International Body for Fitness and Sports
+                (IBFS)
+              </td>
+            </tr>
+            <tr>
+              <td>Achievements</td>
+              <td>World Fitness Championship Winner (2018, 2020)</td>
+            </tr>
+            <tr>
+              <td>Education</td>
+              <td>
+                Bachelor of Science in Physical Education (BScPE) with a focus
+                on Nutrition and Sports Science
+              </td>
+            </tr>
+            <tr>
+              <td>Workshops & Seminars</td>
+              <td>
+                Workshops on Bodyweight Strength Training, Strength Training for
+                Weight Loss, and Yoga for Mental Strength
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <a href="programs.html" class="cta-button">View Programs</a>
+
+    <footer>
+      <p>&copy; 2025 Baki-Fitness. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

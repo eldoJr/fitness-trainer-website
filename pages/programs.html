@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore our fitness programs designed to help you achieve your goals."
+    />
+    <title>Fitness Trainer | Programs</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <style>
+      .programs {
+        padding: 6rem 2rem;
+        background-color: #181f2e;
+        color: var(--lightest-slate);
+        text-align: center;
+      }
+
+      .programs h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color: #ff5733;
+        animation: fadeInUp 1s ease-out;
+      }
+
+      .programs-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .program-card {
+        background-color: var(--light-navy);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .program-card:hover {
+        transform: translateY(-10px);
+        border: 2px solid #ff5733;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .program-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .program-card h2 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        color: var(--accent);
+      }
+
+      .program-card p {
+        font-size: 1rem;
+        margin: 0 1rem 1rem;
+        color: var(--light-slate);
+      }
+
+      .program-card ul {
+        list-style: none;
+        padding: 0;
+        margin: 1rem;
+      }
+
+      .program-card ul li {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        color: var(--light-slate);
+      }
+
+      .program-card .cta-button {
+        display: inline-block;
+        margin: 1rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #ff5733;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .program-card .cta-button:hover {
+        background-color: #e64a2e;
+      }
+
+      @media (max-width: 768px) {
+        .programs {
+          padding: 4rem 1rem;
+        }
+
+        .programs-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Fitness Trainer</div>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li class="contact">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="programs">
+      <h1>Our Programs</h1>
+      <div class="programs-grid">
+        <div class="program-card">
+          <img src="../images/weight.jpg" alt="Weight Loss Program" />
+          <h2>Weight Loss Program</h2>
+          <p>
+            A 12-week program designed to help you shed excess weight and build
+            healthy habits.
+          </p>
+          <ul>
+            <li>Duration: 12 weeks</li>
+            <li>Price: $299</li>
+          </ul>
+          <a href="#" class="cta-button">Apply</a>
+        </div>
+
+        <div class="program-card">
+          <img src="../images/image3.jpg" alt="Strength Training Program" />
+          <h2>Strength Training Program</h2>
+          <p>
+            Build muscle and increase strength with this 8-week program tailored
+            to your fitness level.
+          </p>
+          <ul>
+            <li>Duration: 8 weeks</li>
+            <li>Price: $249</li>
+          </ul>
+          <a href="./contact.html" class="cta-button">Apply</a>
+        </div>
+
+        <div class="program-card">
+          <img src="../images/yoga.jpg" alt="Yoga & Flexibility Program" />
+          <h2>Yoga & Flexibility Program</h2>
+          <p>
+            Improve flexibility, balance, and mental clarity with this 6-week
+            yoga program.
+          </p>
+          <ul>
+            <li>Duration: 6 weeks</li>
+            <li>Price: $199</li>
+          </ul>
+          <a href="./contact.html" class="cta-button">Apply</a>
+        </div>
+
+        <div class="program-card">
+          <img src="../images/cardio.jpg" alt="Cardio Training Program" />
+          <h2>Cardio Training Program</h2>
+          <p>
+            A 10-week program designed to improve cardiovascular fitness and
+            overall health.
+          </p>
+          <ul>
+            <li>Duration: 10 weeks</li>
+            <li>Price: $229</li>
+          </ul>
+          <a href="./contact.html" class="cta-button">Apply</a>
+        </div>
+
+        <div class="program-card">
+          <img src="../images/nutrition.jpg" alt="Nutrition & Diet Program" />
+          <h2>Nutrition & Diet Program</h2>
+          <p>
+            A 4-week program designed to help you develop a balanced diet and
+            maintain a healthy lifestyle.
+          </p>
+          <ul>
+            <li>Duration: 4 weeks</li>
+            <li>Price: $149</li>
+          </ul>
+          <a href="./contact.html" class="cta-button">Apply</a>
+        </div>
+
+        <div class="program-card">
+          <img src="../images/personalized.jpg" alt="Personalized Training Program" />
+          <h2>Personalized Training Program</h2>
+          <p>
+            A 6-week program tailored to your specific needs and goals, ensuring
+            optimal performance and results.
+          </p>
+          <ul>
+            <li>Duration: 6 weeks</li>
+            <li>Price: $279</li>
+          </ul>
+          <a href="./contact.html" class="cta-button">Apply</a>
+        </div>
+
+        <div class="program-card">
+          <img src="../images/consultation.jpg" alt="Consultation & Advice" />
+          <h2>Consultation & Advice</h2>
+          <p>
+            Schedule a consultation with our fitness trainer to discuss your goals,
+            preferences, and any specific needs.
+          </p>
+          <ul>
+            <li>Duration: 1 hour</li>
+            <li>Price: $199</li>
+          </ul>
+          <a href="./contact.html" class="cta-button">Schedule Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Baki-Fitness. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
