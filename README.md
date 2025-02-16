@@ -14,22 +14,6 @@ Check out the live demo: **[Fitness Trainer Website](https://fitness-trainer-web
 - **Flexbox & Grid** - For responsive design.
 - **Media Queries** - For mobile responsiveness.
 
-## 📂 Project Structure
-```
-fitness-trainer-website/
-├── index.html          # Home Page
-├── about.html          # About Page
-├── services.html       # Services Page
-├── contact.html        # Contact Page
-├── assets/
-│   ├── css/
-│   │   ├── style.css   # Main Stylesheet
-│   │   ├── responsive.css # Media Queries
-│   ├── images/         # Image Assets
-│   ├── fonts/          # Custom Fonts
-├── README.md           # Project Documentation
-```
-
 ## 📌 Features
 - 🌟 **Modern & Responsive Design**
 - 📱 **Mobile-Friendly Layout**
@@ -56,7 +40,7 @@ fitness-trainer-website/
 ## 📧 Contact
 If you have any suggestions or issues, feel free to reach out:
 - **GitHub**: [@eldoJr](https://github.com/eldoJr)
-- **Email**: your-email@example.com
+- **Email**: eldomacuacua@gmail.com
 
 ---
 ### 🎯 Let's build a healthier lifestyle together! 💪
