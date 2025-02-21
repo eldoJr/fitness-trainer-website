@@ -37,11 +37,6 @@ Check out the live demo: **[Fitness Trainer Website](https://fitness-trainer-web
 - Implement **animations & transitions** for better UX.
 - Integrate a **backend** for dynamic content.
 
-## 📧 Contact
-If you have any suggestions or issues, feel free to reach out:
-- **GitHub**: [@eldoJr](https://github.com/eldoJr)
-- **Email**: eldomacuacua@gmail.com
-
 ---
 ### 🎯 Let's build a healthier lifestyle together! 💪
 
