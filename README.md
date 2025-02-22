@@ -1,6 +1,6 @@
 # Fitness Trainer Website
 
-![Fitness Trainer Website](https://github.com/eldoJr/fitness-trainer-website/blob/main/Screenshot%20from%202025-02-15%2016-12-55.png)
+![Fitness Trainer Website](https://github.com/eldoJr/fitness-trainer-website/blob/main/preview.png)
 
 ## 📌 Project Overview
 This **Fitness Trainer Website** is the final project for the **Global Certification (HTML & CSS)** course. It is designed to showcase a personal trainer's services, including training programs, testimonials, and contact details. The website is fully responsive and styled using HTML & CSS.
